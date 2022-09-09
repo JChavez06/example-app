@@ -14,7 +14,7 @@
     <form method="POST">
         @csrf
 
-        <label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" value="{{old('nombre')}}"><br/>
+        <label for="nombre">Nombres:</label> <input type="text" id="nombre" name="nombre" value="{{old('nombre')}}"><br/>
         <label for="email">Email:</label> <input type="text" id="email" name="email" value="{{old('email')}}"><br/>
         <input type="checkbox" id="publicidad" name="publicidad" @checked(old('publicidad'))><label for="publicidad">Recibir Publicidad</label><br/>
         <label for="mensaje">Mensaje:</label> <br/>
